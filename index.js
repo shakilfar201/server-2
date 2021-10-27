@@ -58,6 +58,10 @@ app.get('/', (req, res)=>{
     res.send('Abr Practice Suru R Error diye chull chirmu')
 });
 
+app.get('/hello', (req,res)=>{
+  res.send('hellow api');
+})
+
 app.listen(port, ()=>{
     console.log('Listening to the port', port)
 });
