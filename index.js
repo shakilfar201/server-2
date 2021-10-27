@@ -9,8 +9,7 @@ const port = process.env.PORT || 1000;
 app.use(cors());
 app.use(express.json());
 
-// user : genius;
-// pass : vonk2RsJ76KMAKQ2;
+
 
 const uri = `mongodb+srv://${process.env.DB_USER}:${process.env.DB_PASS}@cluster0.g3sna.mongodb.net/myFirstDatabase?retryWrites=true&w=majority`;
 
